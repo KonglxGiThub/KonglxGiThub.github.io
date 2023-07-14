@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>用uniCloud开发了一个性格测试小程序，已经完美发布【源码开源】 | SpringMeng</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/assets/img/1.jpg">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.c4c3dbbb.css" as="style"><link rel="preload" href="/assets/js/app.b4218105.js" as="script"><link rel="preload" href="/assets/js/3.9993d33b.js" as="script"><link rel="preload" href="/assets/js/1.40a3bba8.js" as="script"><link rel="preload" href="/assets/js/38.8b9673cc.js" as="script"><link rel="prefetch" href="/assets/js/10.1d01d832.js"><link rel="prefetch" href="/assets/js/11.3acdce06.js"><link rel="prefetch" href="/assets/js/12.747d99be.js"><link rel="prefetch" href="/assets/js/13.6841576a.js"><link rel="prefetch" href="/assets/js/14.f47b6f6f.js"><link rel="prefetch" href="/assets/js/15.970df792.js"><link rel="prefetch" href="/assets/js/16.1db90214.js"><link rel="prefetch" href="/assets/js/17.07c1b892.js"><link rel="prefetch" href="/assets/js/18.4b127425.js"><link rel="prefetch" href="/assets/js/19.14f87085.js"><link rel="prefetch" href="/assets/js/20.2fa62297.js"><link rel="prefetch" href="/assets/js/21.607a60b1.js"><link rel="prefetch" href="/assets/js/22.25c43b22.js"><link rel="prefetch" href="/assets/js/23.ee14fe18.js"><link rel="prefetch" href="/assets/js/24.15272969.js"><link rel="prefetch" href="/assets/js/25.fca6ca02.js"><link rel="prefetch" href="/assets/js/26.130f41b9.js"><link rel="prefetch" href="/assets/js/27.48658666.js"><link rel="prefetch" href="/assets/js/28.da8495d4.js"><link rel="prefetch" href="/assets/js/29.c6950c6c.js"><link rel="prefetch" href="/assets/js/30.a9f8da93.js"><link rel="prefetch" href="/assets/js/31.57da87e7.js"><link rel="prefetch" href="/assets/js/32.cfdbdcf8.js"><link rel="prefetch" href="/assets/js/33.360cfca8.js"><link rel="prefetch" href="/assets/js/34.67529990.js"><link rel="prefetch" href="/assets/js/35.ff35121b.js"><link rel="prefetch" href="/assets/js/36.3380a370.js"><link rel="prefetch" href="/assets/js/37.ec2b9813.js"><link rel="prefetch" href="/assets/js/39.28b44f3d.js"><link rel="prefetch" href="/assets/js/4.8072aed4.js"><link rel="prefetch" href="/assets/js/40.d400ea50.js"><link rel="prefetch" href="/assets/js/41.376a9bf3.js"><link rel="prefetch" href="/assets/js/42.a38dcb1b.js"><link rel="prefetch" href="/assets/js/43.99ac010a.js"><link rel="prefetch" href="/assets/js/44.af5ab33a.js"><link rel="prefetch" href="/assets/js/45.f9e1bb90.js"><link rel="prefetch" href="/assets/js/46.49cca457.js"><link rel="prefetch" href="/assets/js/47.4ba4cf1c.js"><link rel="prefetch" href="/assets/js/48.ff7ca7d5.js"><link rel="prefetch" href="/assets/js/49.1ea4651e.js"><link rel="prefetch" href="/assets/js/5.7a5a92ee.js"><link rel="prefetch" href="/assets/js/50.0b2659c5.js"><link rel="prefetch" href="/assets/js/51.081c7647.js"><link rel="prefetch" href="/assets/js/52.6ade584b.js"><link rel="prefetch" href="/assets/js/53.15deb295.js"><link rel="prefetch" href="/assets/js/54.b1abcd80.js"><link rel="prefetch" href="/assets/js/55.1df5b0dd.js"><link rel="prefetch" href="/assets/js/56.d5272bf6.js"><link rel="prefetch" href="/assets/js/57.382d0644.js"><link rel="prefetch" href="/assets/js/58.6b8070fa.js"><link rel="prefetch" href="/assets/js/59.44ddd070.js"><link rel="prefetch" href="/assets/js/6.30221381.js"><link rel="prefetch" href="/assets/js/60.d20969d5.js"><link rel="prefetch" href="/assets/js/61.fd340dba.js"><link rel="prefetch" href="/assets/js/7.773ecd4f.js"><link rel="prefetch" href="/assets/js/8.110bf68b.js"><link rel="prefetch" href="/assets/js/9.363b2f55.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.c4c3dbbb.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>SpringMeng</h3> <p class="description" data-v-59e6cb88></p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88>
+          
+
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/assets/img/1.jpg" alt="SpringMeng" class="logo"> <span class="site-name">SpringMeng</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> </div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="undefined"></i>
+  🌈首页
+</a></div><div class="nav-item"><a href="/d1/1-7.html" class="nav-link"><i class="undefined"></i>
+  ⭐优质项目
+</a></div><div class="nav-item"><a href="/d2/2-1.html" class="nav-link"><i class="undefined"></i>
+  ⭐小孟的开发生活
+</a></div><div class="nav-item"><a href="/d3/java 培训.html" class="nav-link"><i class="undefined"></i>
+  💎钻石VIP
+</a></div><div class="nav-item"><a href="/d4/demo.html" class="nav-link"><i class="undefined"></i>
+  ⭐面试大全
+</a></div><div class="nav-item"><a href="/d5/demo.html" class="nav-link"><i class="undefined"></i>
+  ⭐软件工具大全
+</a></div><div class="nav-item"><a href="/d6/demo.html" class="nav-link"><i class="undefined"></i>
+  ⭐定制开发
+</a></div> </nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/assets/img/0100ebedf8e18b8a97a5dc862764f24.jpg" alt="author-avatar" class="personal-img" data-v-1fad0c41>  <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>51</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>0</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="undefined"></i>
+  🌈首页
+</a></div><div class="nav-item"><a href="/d1/1-7.html" class="nav-link"><i class="undefined"></i>
+  ⭐优质项目
+</a></div><div class="nav-item"><a href="/d2/2-1.html" class="nav-link"><i class="undefined"></i>
+  ⭐小孟的开发生活
+</a></div><div class="nav-item"><a href="/d3/java 培训.html" class="nav-link"><i class="undefined"></i>
+  💎钻石VIP
+</a></div><div class="nav-item"><a href="/d4/demo.html" class="nav-link"><i class="undefined"></i>
+  ⭐面试大全
+</a></div><div class="nav-item"><a href="/d5/demo.html" class="nav-link"><i class="undefined"></i>
+  ⭐软件工具大全
+</a></div><div class="nav-item"><a href="/d6/demo.html" class="nav-link"><i class="undefined"></i>
+  ⭐定制开发
+</a></div> </nav> <ul class="sidebar-links"><li><a href="/d1/1-7.html" class="sidebar-link">三天开发一个系统，奖金3k【生活分享系统】【源码开源】</a></li><li><a href="/d1/1-1.html" class="sidebar-link">三天肝完设计模式的面试题，面试再不怕设计模式的问题了</a></li><li><a href="/d1/1-2.html" class="sidebar-link">二分法查找（binarySearch）</a></li><li><a href="/d1/1-3.html" class="sidebar-link">冒泡排序（Bubble Sort）</a></li><li><a href="/d1/1-4.html" class="sidebar-link">十大大厂高频算法题</a></li><li><a href="/d1/1-5.html" class="sidebar-link">快速排序（Selection Sort）</a></li><li><a href="/d1/1-6.html" class="sidebar-link">插入排序（InsertionSort）</a></li><li><a href="/d1/1-8.html" class="sidebar-link">❤️爆肝熬夜开发了一个SpringBoot活动管理系统，现在开源给你！毕设面试学习都不愁了！【强烈建议收藏】❤️</a></li><li><a href="/d1/1-9.html" class="sidebar-link">❤️分享一个基于SpringCloud的微服务项目【源码+视频教程】【保姆式教程】【建议收藏】❤️️</a></li><li><a href="/d1/1-10.html" class="sidebar-link">❤️肝了一个SpringBoot+Vue的招聘系统【开源了】【还有教程】【强烈建议收藏】❤️</a></li><li><a href="/d1/1-11.html" class="sidebar-link">❤️撸完这个springboot项目，我对boot轻车熟路！【源码+视频都开源】【强烈建议收藏】❤️️</a></li><li><a href="/d1/1-12.html" class="sidebar-link">回馈粉丝，开源一个基于SSM物业疫情系统【界面和功能nice】️</a></li><li><a href="/d1/1-13.html" class="sidebar-link">回馈粉丝，又开源一个小程序系统-【SSM健康管理小程序】️</a></li><li><a href="/d1/1-14.html" class="sidebar-link">基于ssm后台+小程序的物业管理系统【已开源】️</a></li><li><a href="/d1/1-15.html" class="sidebar-link">教学妹开发springboot+vue的博客论坛系统，so easy️</a></li><li><a href="/d1/1-16.html" class="sidebar-link">如何做一份百分之百中的社招简历️</a></li><li><a href="/d1/1-17.html" class="sidebar-link">挑战一天开发一个前后端小程序系统|源码公开，开箱即用️</a></li><li><a href="/d1/1-18.html" class="sidebar-link">校招如何做一份百分之百中的简历？️</a></li><li><a href="/d1/1-19.html" class="sidebar-link">一个月肝一个基于SpringBoot的在线教育系统【建议收藏】️</a></li><li><a href="/d1/1-20.html" class="sidebar-link">从零到完成安卓项目实战【安卓端+后端】️</a></li><li><a href="/d1/1-21.html" class="sidebar-link">大厂程序员接私活被坑， 还被放鸽子，那源码就开源-基于SSM仿知乎小程序️</a></li><li><a href="/d1/1-22.html" class="sidebar-link">国庆节，一天开发一个小程序+Web系统。2.5K到手。【分享开发经验】【收藏起来】️</a></li><li><a href="/d1/1-23.html" class="sidebar-link">基于Node+Vue.js高质量商城系统的开发️</a></li><li><a href="/d1/1-24.html" class="sidebar-link">基于SpringBoot点餐小程序的开发【前后端】️</a></li><li><a href="/d1/1-25.html" class="sidebar-link">基于SpringBoot音乐翻唱网站的设计与实现️</a></li><li><a href="/d1/1-26.html" class="sidebar-link">基于推荐算法的商城系统开发️</a></li><li><a href="/d1/1-27.html" class="sidebar-link">开发一个springboot+vue的项目【增加铃声制作的功能】️</a></li><li><a href="/d1/1-28.html" class="sidebar-link">手把手教你设计一个CSDN系统️</a></li><li><a href="/d1/1-29.html" class="sidebar-link">手把手教你做一个安卓点餐系统️</a></li><li><a href="/d1/1-30.html" class="sidebar-link">突然开发一个SpringBoot+flowable工作流系统，真的香️</a></li><li><a href="/d1/1-31.html" class="sidebar-link">喜欢看球，那就手撸一个看球小程序系统️</a></li><li><a href="/d1/1-32.html" class="sidebar-link">小孟5w接了个盲盒小程序，三周开发完毕现在的年轻人是真的会玩，越来越新的东西出来，越来越好玩的东西流行。️</a></li><li><a href="/d1/1-33.html" class="sidebar-link">一天撸一个财务APP系统【安卓端+前端+后端】️</a></li><li><a href="/d1/1-34.html" aria-current="page" class="active sidebar-link">用uniCloud开发了一个性格测试小程序，已经完美发布【源码开源】️</a></li><li><a href="/d1/1-35.html" class="sidebar-link">SpringBoot开发非常美观的java博客系统️</a></li><li><a href="/d1/1-36.html" class="sidebar-link">基于java springboot+mybaits-plus+vue云旅游网站设计与实现️</a></li><li><a href="/d1/1-37.html" class="sidebar-link">基于Servlet+EasyUI+Mysql的学生信息系统开源️</a></li><li><a href="/d1/1-38.html" class="sidebar-link">基于spring+springmvc+mybatis的天猫系统源码分享️</a></li><li><a href="/d1/1-39.html" class="sidebar-link">基于Springboot的模块化开发系统️</a></li><li><a href="/d1/1-40.html" class="sidebar-link">基于springboot的资源+博客系统发布【原创】【开源】️</a></li><li><a href="/d1/1-41.html" class="sidebar-link">基于SSM+小程序健身饮食管理系统的设计与实现【Nice】️</a></li><li><a href="/d1/1-42.html" class="sidebar-link">基于ssm的商城系统「源码开源」【视频教程】️</a></li><li><a href="/d1/1-43.html" class="sidebar-link">进销存管理系统【源码开放】️</a></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>用uniCloud开发了一个性格测试小程序，已经完美发布【源码开源】</h3>  <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88>
+          
+
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page" style="padding-right:0;"><section style="display:;"><div class="page-title"><h1 class="title">用uniCloud开发了一个性格测试小程序，已经完美发布【源码开源】</h1> <div data-v-8a445198> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>5/26/2023</span></i>  </div></div> <div class="theme-reco-content content__default"><p>最近研究了<a href="https://so.csdn.net/so/search?q=uniCloud&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">uniCloud<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，并用uniCloud开发了一个性格测试小程序，已经发布到服务器，完美的发布到抖音，在抖音可以搜索到该小程序。</p> <p>源码和视频教程都开源给大家了。小孟已经发布到抖音，全部的已经跑通，所以小伙伴可以拿去学习，没有任何的问题。</p> <p>也出了详细的教程了！视频的教程放在b站了。https://www.bilibili.com/video/BV19u411z7Jr?spm_id_from=333.999.0.0</p> <p><img src="/assets/1-34/1-1684208670659.png" alt="1"></p> <h2 id="一-什么是unicloud"><a href="#一-什么是unicloud" class="header-anchor">#</a> 一，什么是uniCloud：</h2> <p>uniCloud是<a href="https://so.csdn.net/so/search?q=uni-app&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">uni-app<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>的云开发库，是 DCloud 联合阿里云、腾讯云，为开发者提供的基于 serverless 模式和 js 编程的云开发平台。</p> <p>uniCloud基本抹平了不同云厂商的差异，如果你熟悉mongoDB，那么就很容易上手了!</p> <p>现在用uniCloud可以大大的提高开发的效率，而且可以降低运维方面的成本，因为现在serverless还处于免费阶段。</p> <p>当然也有很多的缺点，新手上手的话不是很快，很多东西也不支持，例如删除数据，竟然还要去调api。</p> <p>最近小孟和老王研究了下，感觉还是可以搞的，于是就测试并发布了整个通用的版本，发布到了抖音，这个大家可以搞一下，抖音的流量你懂的，但是我们现在对赚钱不感兴趣。所以有小伙伴想搞的，可以拿去源码学习，但是不要商用和贩卖！</p> <h2 id="二-系统界面截图"><a href="#二-系统界面截图" class="header-anchor">#</a> 二，系统界面截图：</h2> <p><img src="/assets/1-34/2.png" alt="2"></p> <p><img src="/assets/1-34/3.png" alt="3"></p> <p><img src="/assets/1-34/4.png" alt="4"></p> <p><img src="/assets/1-34/5.png" alt="5"></p> <p><img src="/assets/1-34/7.png" alt="7"></p> <p><img src="/assets/1-34/8.png" alt="8"></p> <p><img src="/assets/1-34/9.png" alt="9"></p> <p><img src="/assets/1-34/11.png" alt="11"></p> <p><img src="/assets/1-34/12.png" alt="12"></p> <p><img src="/assets/1-34/13.png" alt="13"></p> <h2 id="三-核心代码演示"><a href="#三-核心代码演示" class="header-anchor">#</a> 三，核心代码演示：</h2> <div class="language-java extra-class"><pre class="language-java"><code><span class="token generics"><span class="token punctuation">&lt;</span>template<span class="token punctuation">&gt;</span></span>
+	<span class="token operator">&lt;</span>view <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;center&quot;</span><span class="token operator">&gt;</span>
+		<span class="token operator">&lt;</span>view <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;userInfo&quot;</span> <span class="token annotation punctuation">@click.capture</span><span class="token operator">=</span><span class="token string">&quot;toUserInfo&quot;</span><span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span>uni<span class="token operator">-</span>file<span class="token operator">-</span>picker v<span class="token operator">-</span><span class="token keyword">if</span><span class="token operator">=</span><span class="token string">&quot;userInfo.avatar_file&quot;</span> v<span class="token operator">-</span>model<span class="token operator">=</span><span class="token string">&quot;userInfo.avatar_file&quot;</span>
+				fileMediatype<span class="token operator">=</span><span class="token string">&quot;image&quot;</span> <span class="token operator">:</span>del<span class="token operator">-</span>icon<span class="token operator">=</span><span class="token string">&quot;false&quot;</span> <span class="token keyword">return</span><span class="token operator">-</span>type<span class="token operator">=</span><span class="token string">&quot;object&quot;</span> <span class="token operator">:</span>image<span class="token operator">-</span>styles<span class="token operator">=</span><span class="token string">&quot;listStyles&quot;</span> disablePreview
+				disabled <span class="token operator">/</span><span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span>image v<span class="token operator">-</span><span class="token keyword">else</span> <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;logo-img&quot;</span> src<span class="token operator">=</span><span class="token string">&quot;/static/uni-center/defaultAvatarUrl.png&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>image<span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span>view <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;logo-title&quot;</span><span class="token operator">&gt;</span>
+				<span class="token operator">&lt;</span>text <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;uer-name&quot;</span><span class="token operator">&gt;</span><span class="token punctuation">{</span><span class="token punctuation">{</span>userInfo<span class="token punctuation">.</span>nickname<span class="token operator">||</span>userInfo<span class="token punctuation">.</span>username<span class="token operator">||</span>userInfo<span class="token punctuation">.</span>mobile<span class="token operator">||</span><span class="token char">'未登录'</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>text<span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+		<span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+		<span class="token operator">&lt;</span>uni<span class="token operator">-</span>list <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;center-list&quot;</span> v<span class="token operator">-</span><span class="token keyword">for</span><span class="token operator">=</span><span class="token string">&quot;(sublist , index) in ucenterList&quot;</span> <span class="token operator">:</span>key<span class="token operator">=</span><span class="token string">&quot;index&quot;</span><span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span>uni<span class="token operator">-</span>list<span class="token operator">-</span>item v<span class="token operator">-</span><span class="token keyword">for</span><span class="token operator">=</span><span class="token string">&quot;(item,i) in sublist&quot;</span> <span class="token operator">:</span>title<span class="token operator">=</span><span class="token string">&quot;item.title&quot;</span> link <span class="token operator">:</span>rightText<span class="token operator">=</span><span class="token string">&quot;item.rightText&quot;</span> <span class="token operator">:</span>key<span class="token operator">=</span><span class="token string">&quot;i&quot;</span>
+				<span class="token operator">:</span>clickable<span class="token operator">=</span><span class="token string">&quot;true&quot;</span> <span class="token operator">:</span><span class="token keyword">to</span><span class="token operator">=</span><span class="token string">&quot;item.to&quot;</span> <span class="token annotation punctuation">@click</span><span class="token operator">=</span><span class="token string">&quot;ucenterListClick(item)&quot;</span> <span class="token operator">:</span>show<span class="token operator">-</span>extra<span class="token operator">-</span>icon<span class="token operator">=</span><span class="token string">&quot;true&quot;</span>
+				<span class="token operator">:</span>extraIcon<span class="token operator">=</span><span class="token string">&quot;{type:item.icon,color:'#999'}&quot;</span><span class="token operator">&gt;</span>
+				<span class="token operator">&lt;</span>view v<span class="token operator">-</span><span class="token keyword">if</span><span class="token operator">=</span><span class="token string">&quot;item.showBadge&quot;</span> <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;item-footer&quot;</span> slot<span class="token operator">=</span><span class="token string">&quot;footer&quot;</span><span class="token operator">&gt;</span>
+					<span class="token operator">&lt;</span>text <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;item-footer-text&quot;</span><span class="token operator">&gt;</span><span class="token punctuation">{</span><span class="token punctuation">{</span>item<span class="token punctuation">.</span>rightText<span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>text<span class="token operator">&gt;</span>
+					<span class="token operator">&lt;</span>view <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;item-footer-badge&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+				<span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span><span class="token operator">/</span>uni<span class="token operator">-</span>list<span class="token operator">-</span>item<span class="token operator">&gt;</span>
+		<span class="token operator">&lt;</span><span class="token operator">/</span>uni<span class="token operator">-</span>list<span class="token operator">&gt;</span>
+	<span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+
+<span class="token generics"><span class="token punctuation">&lt;</span>script<span class="token punctuation">&gt;</span></span>
+	<span class="token keyword">import</span> <span class="token punctuation">{</span>
+		mapGetters<span class="token punctuation">,</span>
+		mapMutations
+	<span class="token punctuation">}</span> from <span class="token char">'vuex'</span><span class="token punctuation">;</span>
+	<span class="token keyword">import</span> <span class="token namespace">checkUpdate</span> from '@<span class="token operator">/</span>uni_modules<span class="token operator">/</span>uni<span class="token operator">-</span>upgrade<span class="token operator">-</span>center<span class="token operator">-</span>app<span class="token operator">/</span>utils<span class="token operator">/</span>check<span class="token operator">-</span>update'<span class="token punctuation">;</span>
+	<span class="token keyword">import</span> <span class="token namespace">callCheckVersion</span> from '@<span class="token operator">/</span>uni_modules<span class="token operator">/</span>uni<span class="token operator">-</span>upgrade<span class="token operator">-</span>center<span class="token operator">-</span>app<span class="token operator">/</span>utils<span class="token operator">/</span>call<span class="token operator">-</span>check<span class="token operator">-</span>version'<span class="token punctuation">;</span>
+	<span class="token keyword">import</span> <span class="token namespace">uniShare</span> from 'uni_modules<span class="token operator">/</span>uni<span class="token operator">-</span>share<span class="token operator">/</span>js_sdk<span class="token operator">/</span>uni<span class="token operator">-</span>share<span class="token punctuation">.</span>js'<span class="token punctuation">;</span>
+
+	<span class="token keyword">const</span> db <span class="token operator">=</span> uniCloud<span class="token punctuation">.</span><span class="token function">database</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	export <span class="token keyword">default</span> <span class="token punctuation">{</span>
+		<span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">return</span> <span class="token punctuation">{</span>
+				ucenterList<span class="token operator">:</span> <span class="token punctuation">[</span>
+					<span class="token punctuation">[</span><span class="token punctuation">{</span>
+						<span class="token string">&quot;title&quot;</span><span class="token operator">:</span> <span class="token char">'问题与反馈'</span><span class="token punctuation">,</span>
+						<span class="token string">&quot;to&quot;</span><span class="token operator">:</span> '<span class="token operator">/</span>uni_modules<span class="token operator">/</span>uni<span class="token operator">-</span>feedback<span class="token operator">/</span>pages<span class="token operator">/</span>uni<span class="token operator">-</span>feedback<span class="token operator">/</span>uni<span class="token operator">-</span>feedback'<span class="token punctuation">,</span>
+						<span class="token string">&quot;icon&quot;</span><span class="token operator">:</span> <span class="token string">&quot;help&quot;</span>
+					<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+						<span class="token string">&quot;title&quot;</span><span class="token operator">:</span> <span class="token char">'设置'</span><span class="token punctuation">,</span>
+						<span class="token string">&quot;to&quot;</span><span class="token operator">:</span> '<span class="token operator">/</span>pages<span class="token operator">/</span>ucenter<span class="token operator">/</span>settings<span class="token operator">/</span>settings'<span class="token punctuation">,</span>
+						<span class="token string">&quot;icon&quot;</span><span class="token operator">:</span> <span class="token string">&quot;gear&quot;</span>
+					<span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+					<span class="token punctuation">[</span><span class="token punctuation">{</span>
+						<span class="token string">&quot;title&quot;</span><span class="token operator">:</span> <span class="token char">'关于'</span><span class="token punctuation">,</span>
+						<span class="token string">&quot;to&quot;</span><span class="token operator">:</span> '<span class="token operator">/</span>pages<span class="token operator">/</span>ucenter<span class="token operator">/</span>about<span class="token operator">/</span>about'<span class="token punctuation">,</span>
+						<span class="token string">&quot;icon&quot;</span><span class="token operator">:</span> <span class="token string">&quot;info&quot;</span>
+					<span class="token punctuation">}</span><span class="token punctuation">]</span>
+				<span class="token punctuation">]</span><span class="token punctuation">,</span>
+				listStyles<span class="token operator">:</span> <span class="token punctuation">{</span>
+					<span class="token string">&quot;height&quot;</span><span class="token operator">:</span> <span class="token string">&quot;150rpx&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 边框高度</span>
+					<span class="token string">&quot;width&quot;</span><span class="token operator">:</span> <span class="token string">&quot;150rpx&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 边框宽度</span>
+					<span class="token string">&quot;border&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">// 如果为 Boolean 值，可以控制边框显示与否</span>
+						<span class="token string">&quot;color&quot;</span><span class="token operator">:</span> <span class="token string">&quot;#eee&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 边框颜色</span>
+						<span class="token string">&quot;width&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1px&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 边框宽度</span>
+						<span class="token string">&quot;style&quot;</span><span class="token operator">:</span> <span class="token string">&quot;solid&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 边框样式</span>
+						<span class="token string">&quot;radius&quot;</span><span class="token operator">:</span> <span class="token string">&quot;100%&quot;</span> <span class="token comment">// 边框圆角，支持百分比</span>
+					<span class="token punctuation">}</span>
+				<span class="token punctuation">}</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token function">onLoad</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token comment">//#ifdef APP-PLUS</span>
+			<span class="token keyword">this</span><span class="token punctuation">.</span>ucenterList<span class="token punctuation">[</span><span class="token keyword">this</span><span class="token punctuation">.</span>ucenterList<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">unshift</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+				title<span class="token operator">:</span> <span class="token char">'检查更新'</span><span class="token punctuation">,</span>
+				rightText<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>appVersion<span class="token punctuation">.</span>version <span class="token operator">+</span> <span class="token char">'-'</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>appVersion<span class="token punctuation">.</span>versionCode<span class="token punctuation">,</span>
+				event<span class="token operator">:</span> 'checkVersion'<span class="token punctuation">,</span>
+				icon<span class="token operator">:</span> <span class="token char">'loop'</span><span class="token punctuation">,</span>
+				showBadge<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>appVersion<span class="token punctuation">.</span>hasNew
+			<span class="token punctuation">}</span><span class="token punctuation">)</span>
+			<span class="token comment">//#endif</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		computed<span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token function">mapGetters</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+				userInfo<span class="token operator">:</span> 'user<span class="token operator">/</span>info'<span class="token punctuation">,</span>
+				login<span class="token operator">:</span> 'user<span class="token operator">/</span>hasLogin'
+			<span class="token punctuation">}</span><span class="token punctuation">)</span>
+			<span class="token comment">// #ifdef APP-PLUS</span>
+			<span class="token punctuation">,</span>
+			<span class="token function">appVersion</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				<span class="token keyword">return</span> <span class="token function">getApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>appVersion
+			<span class="token punctuation">}</span>
+			<span class="token comment">// #endif</span>
+			<span class="token punctuation">,</span>
+			<span class="token function">appConfig</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				<span class="token keyword">return</span> <span class="token function">getApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>globalData<span class="token punctuation">.</span>config
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token function">mapMutations</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+				setUserInfo<span class="token operator">:</span> 'user<span class="token operator">/</span>login'
+			<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+			<span class="token function">toSettings</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				uni<span class="token punctuation">.</span><span class="token function">navigateTo</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+					url<span class="token operator">:</span> <span class="token string">&quot;/pages/ucenter/settings/settings&quot;</span>
+				<span class="token punctuation">}</span><span class="token punctuation">)</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+			<span class="token comment">/**
+			 * 个人中心项目列表点击事件
+			 */</span>
+			<span class="token function">ucenterListClick</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>item<span class="token punctuation">.</span><span class="token keyword">to</span> <span class="token operator">&amp;&amp;</span> item<span class="token punctuation">.</span>event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+					<span class="token keyword">this</span><span class="token punctuation">[</span>item<span class="token punctuation">.</span>event<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+				<span class="token punctuation">}</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+			async <span class="token function">checkVersion</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				let res <span class="token operator">=</span> await <span class="token function">callCheckVersion</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+				console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span><span class="token punctuation">;</span>
+				<span class="token keyword">if</span> <span class="token punctuation">(</span>res<span class="token punctuation">.</span>result<span class="token punctuation">.</span>code <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+					<span class="token function">checkUpdate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+				<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+					uni<span class="token punctuation">.</span><span class="token function">showToast</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+						title<span class="token operator">:</span> res<span class="token punctuation">.</span>result<span class="token punctuation">.</span>message<span class="token punctuation">,</span>
+						icon<span class="token operator">:</span> <span class="token char">'none'</span>
+					<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+				<span class="token punctuation">}</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+			<span class="token function">toUserInfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				uni<span class="token punctuation">.</span><span class="token function">navigateTo</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+					url<span class="token operator">:</span> '<span class="token operator">/</span>pages<span class="token operator">/</span>ucenter<span class="token operator">/</span>userinfo<span class="token operator">/</span>userinfo'
+				<span class="token punctuation">}</span><span class="token punctuation">)</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+			<span class="token comment">/**
+			 * 去应用市场评分
+			 */</span>
+			<span class="token function">gotoMarket</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				<span class="token comment">// #ifdef APP-PLUS</span>
+				<span class="token keyword">if</span> <span class="token punctuation">(</span>uni<span class="token punctuation">.</span><span class="token function">getSystemInfoSync</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>platform <span class="token operator">==</span> <span class="token string">&quot;ios&quot;</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+					<span class="token comment">// 这里填写appstore应用id</span>
+					let appstoreid <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>appConfig<span class="token punctuation">.</span>marketId<span class="token punctuation">.</span>ios<span class="token punctuation">;</span> <span class="token comment">// 'id1417078253';</span>
+					plus<span class="token punctuation">.</span>runtime<span class="token punctuation">.</span><span class="token function">openURL</span><span class="token punctuation">(</span><span class="token string">&quot;itms-apps://&quot;</span> <span class="token operator">+</span> 'itunes<span class="token punctuation">.</span>apple<span class="token punctuation">.</span>com<span class="token operator">/</span>cn<span class="token operator">/</span>app<span class="token operator">/</span>wechat<span class="token operator">/</span>' <span class="token operator">+</span> appstoreid <span class="token operator">+</span> <span class="token char">'?mt=8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+				<span class="token punctuation">}</span>
+				<span class="token keyword">if</span> <span class="token punctuation">(</span>uni<span class="token punctuation">.</span><span class="token function">getSystemInfoSync</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>platform <span class="token operator">==</span> <span class="token string">&quot;android&quot;</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+					<span class="token keyword">var</span> <span class="token class-name">Uri</span> <span class="token operator">=</span> plus<span class="token punctuation">.</span>android<span class="token punctuation">.</span><span class="token function">importClass</span><span class="token punctuation">(</span><span class="token string">&quot;android.net.Uri&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+					<span class="token keyword">var</span> uri <span class="token operator">=</span> <span class="token class-name">Uri</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span><span class="token string">&quot;market://details?id=&quot;</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>appConfig<span class="token punctuation">.</span>marketId<span class="token punctuation">.</span>android<span class="token punctuation">)</span><span class="token punctuation">;</span>
+					<span class="token keyword">var</span> <span class="token class-name">Intent</span> <span class="token operator">=</span> plus<span class="token punctuation">.</span>android<span class="token punctuation">.</span><span class="token function">importClass</span><span class="token punctuation">(</span>'<span class="token class-name"><span class="token namespace">android<span class="token punctuation">.</span>content<span class="token punctuation">.</span></span>Intent</span>'<span class="token punctuation">)</span><span class="token punctuation">;</span>
+					<span class="token keyword">var</span> intent <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Intent</span><span class="token punctuation">(</span><span class="token class-name">Intent</span><span class="token punctuation">.</span><span class="token constant">ACTION_VIEW</span><span class="token punctuation">,</span> uri<span class="token punctuation">)</span><span class="token punctuation">;</span>
+					<span class="token keyword">var</span> main <span class="token operator">=</span> plus<span class="token punctuation">.</span>android<span class="token punctuation">.</span><span class="token function">runtimeMainActivity</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+					main<span class="token punctuation">.</span><span class="token function">startActivity</span><span class="token punctuation">(</span>intent<span class="token punctuation">)</span><span class="token punctuation">;</span>
+				<span class="token punctuation">}</span>
+				<span class="token comment">// #endif</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+			async <span class="token function">share</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				let <span class="token punctuation">{</span>result<span class="token punctuation">}</span> <span class="token operator">=</span> await uniCloud<span class="token punctuation">.</span><span class="token function">callFunction</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+					name<span class="token operator">:</span> 'uni<span class="token operator">-</span>id<span class="token operator">-</span>cf'<span class="token punctuation">,</span>
+					data<span class="token operator">:</span> <span class="token punctuation">{</span>
+						action<span class="token operator">:</span> 'getUserInviteCode'
+					<span class="token punctuation">}</span>
+				<span class="token punctuation">}</span><span class="token punctuation">)</span>
+				console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+				let myInviteCode <span class="token operator">=</span> result<span class="token punctuation">.</span>myInviteCode <span class="token operator">||</span> result<span class="token punctuation">.</span>userInfo<span class="token punctuation">.</span>my_invite_code
+				console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>myInviteCode<span class="token punctuation">)</span><span class="token punctuation">;</span>
+				let <span class="token punctuation">{</span>
+					appName<span class="token punctuation">,</span>
+					logo<span class="token punctuation">,</span>
+					company<span class="token punctuation">,</span>
+					slogan
+				<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>appConfig<span class="token punctuation">.</span>about
+				<span class="token comment">// #ifdef APP-PLUS</span>
+				<span class="token function">uniShare</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+					content<span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">//公共的分享类型（type）、链接（herf）、标题（title）、summary（描述）、imageUrl（缩略图）</span>
+						type<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+						href<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>appConfig<span class="token punctuation">.</span>h5<span class="token punctuation">.</span>url <span class="token operator">+</span>
+							`<span class="token operator">/</span>#<span class="token operator">/</span>pages<span class="token operator">/</span>ucenter<span class="token operator">/</span>invite<span class="token operator">/</span>invite<span class="token operator">?</span>code<span class="token operator">=</span>$<span class="token punctuation">{</span>myInviteCode<span class="token punctuation">}</span>`<span class="token punctuation">,</span>
+						title<span class="token operator">:</span> appName<span class="token punctuation">,</span>
+						summary<span class="token operator">:</span> slogan<span class="token punctuation">,</span>
+						imageUrl<span class="token operator">:</span> logo <span class="token operator">+</span> '<span class="token operator">?</span>x<span class="token operator">-</span>oss<span class="token operator">-</span>process<span class="token operator">=</span>image<span class="token operator">/</span>resize<span class="token punctuation">,</span>m_fill<span class="token punctuation">,</span>h_100<span class="token punctuation">,</span>w_100' <span class="token comment">//压缩图片解决，在ios端分享图过大导致的图片失效问题</span>
+					<span class="token punctuation">}</span><span class="token punctuation">,</span>
+					menus<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+							<span class="token string">&quot;img&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/static/app-plus/sharemenu/wechatfriend.png&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;微信好友&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;share&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+								<span class="token string">&quot;provider&quot;</span><span class="token operator">:</span> <span class="token string">&quot;weixin&quot;</span><span class="token punctuation">,</span>
+								<span class="token string">&quot;scene&quot;</span><span class="token operator">:</span> <span class="token string">&quot;WXSceneSession&quot;</span>
+							<span class="token punctuation">}</span>
+						<span class="token punctuation">}</span><span class="token punctuation">,</span>
+						<span class="token punctuation">{</span>
+							<span class="token string">&quot;img&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/static/app-plus/sharemenu/wechatmoments.png&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;share&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+								<span class="token string">&quot;provider&quot;</span><span class="token operator">:</span> <span class="token string">&quot;weixin&quot;</span><span class="token punctuation">,</span>
+								<span class="token string">&quot;scene&quot;</span><span class="token operator">:</span> <span class="token string">&quot;WXSenceTimeline&quot;</span>
+							<span class="token punctuation">}</span>
+						<span class="token punctuation">}</span><span class="token punctuation">,</span>
+						<span class="token punctuation">{</span>
+							<span class="token string">&quot;img&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/static/app-plus/sharemenu/weibo.png&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;微博&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;share&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+								<span class="token string">&quot;provider&quot;</span><span class="token operator">:</span> <span class="token string">&quot;sinaweibo&quot;</span>
+							<span class="token punctuation">}</span>
+						<span class="token punctuation">}</span><span class="token punctuation">,</span>
+						<span class="token punctuation">{</span>
+							<span class="token string">&quot;img&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/static/app-plus/sharemenu/qq.png&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;QQ&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;share&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+								<span class="token string">&quot;provider&quot;</span><span class="token operator">:</span> <span class="token string">&quot;qq&quot;</span>
+							<span class="token punctuation">}</span>
+						<span class="token punctuation">}</span><span class="token punctuation">,</span>
+						<span class="token punctuation">{</span>
+							<span class="token string">&quot;img&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/static/app-plus/sharemenu/copyurl.png&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;复制&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;share&quot;</span><span class="token operator">:</span> <span class="token string">&quot;copyurl&quot;</span>
+						<span class="token punctuation">}</span><span class="token punctuation">,</span>
+						<span class="token punctuation">{</span>
+							<span class="token string">&quot;img&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/static/app-plus/sharemenu/more.png&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;更多&quot;</span><span class="token punctuation">,</span>
+							<span class="token string">&quot;share&quot;</span><span class="token operator">:</span> <span class="token string">&quot;shareSystem&quot;</span>
+						<span class="token punctuation">}</span>
+					<span class="token punctuation">]</span><span class="token punctuation">,</span>
+					cancelText<span class="token operator">:</span> <span class="token string">&quot;取消分享&quot;</span><span class="token punctuation">,</span>
+				<span class="token punctuation">}</span><span class="token punctuation">,</span> e <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span> <span class="token comment">//callback</span>
+					console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+				<span class="token punctuation">}</span><span class="token punctuation">)</span>
+				<span class="token comment">// #endif</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+
+<span class="token generics"><span class="token punctuation">&lt;</span>style<span class="token punctuation">&gt;</span></span>
+	<span class="token comment">/* #ifndef APP-PLUS-NVUE */</span>
+	page <span class="token punctuation">{</span>
+		background<span class="token operator">-</span>color<span class="token operator">:</span> #f8f8f8<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token comment">/* #endif*/</span>
+
+	<span class="token punctuation">.</span>center <span class="token punctuation">{</span>
+		flex<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">;</span>
+		flex<span class="token operator">-</span>direction<span class="token operator">:</span> column<span class="token punctuation">;</span>
+		background<span class="token operator">-</span>color<span class="token operator">:</span> #f8f8f8<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>userInfo <span class="token punctuation">{</span>
+		width<span class="token operator">:</span> <span class="token number">750</span>rpx<span class="token punctuation">;</span>
+		padding<span class="token operator">:</span> <span class="token number">20</span>rpx<span class="token punctuation">;</span>
+		padding<span class="token operator">-</span>top<span class="token operator">:</span> <span class="token number">50</span>px<span class="token punctuation">;</span>
+		background<span class="token operator">-</span>image<span class="token operator">:</span> <span class="token function">url</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span>/<span class="token punctuation">.</span><span class="token punctuation">.</span>/<span class="token keyword">static</span><span class="token operator">/</span>uni<span class="token operator">-</span>center<span class="token operator">/</span>headers<span class="token punctuation">.</span>png<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		flex<span class="token operator">-</span>direction<span class="token operator">:</span> column<span class="token punctuation">;</span>
+		align<span class="token operator">-</span>items<span class="token operator">:</span> center<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>logo<span class="token operator">-</span>img <span class="token punctuation">{</span>
+		width<span class="token operator">:</span> <span class="token number">150</span>rpx<span class="token punctuation">;</span>
+		height<span class="token operator">:</span> <span class="token number">150</span>rpx<span class="token punctuation">;</span>
+		border<span class="token operator">-</span>radius<span class="token operator">:</span> <span class="token number">150</span>rpx<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>logo<span class="token operator">-</span>title <span class="token punctuation">{</span>
+		flex<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">;</span>
+		align<span class="token operator">-</span>items<span class="token operator">:</span> center<span class="token punctuation">;</span>
+		justify<span class="token operator">-</span>content<span class="token operator">:</span> space<span class="token operator">-</span>between<span class="token punctuation">;</span>
+		flex<span class="token operator">-</span>direction<span class="token operator">:</span> row<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>uer<span class="token operator">-</span>name <span class="token punctuation">{</span>
+		height<span class="token operator">:</span> <span class="token number">100</span>rpx<span class="token punctuation">;</span>
+		line<span class="token operator">-</span>height<span class="token operator">:</span> <span class="token number">100</span>rpx<span class="token punctuation">;</span>
+		font<span class="token operator">-</span>size<span class="token operator">:</span> <span class="token number">38</span>rpx<span class="token punctuation">;</span>
+		color<span class="token operator">:</span> #<span class="token constant">FFFFFF</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>center<span class="token operator">-</span>list <span class="token punctuation">{</span>
+		margin<span class="token operator">-</span>bottom<span class="token operator">:</span> <span class="token number">30</span>rpx<span class="token punctuation">;</span>
+		background<span class="token operator">-</span>color<span class="token operator">:</span> #f9f9f9<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>center<span class="token operator">-</span>list<span class="token operator">-</span>cell <span class="token punctuation">{</span>
+		width<span class="token operator">:</span> <span class="token number">750</span>rpx<span class="token punctuation">;</span>
+		background<span class="token operator">-</span>color<span class="token operator">:</span> #<span class="token number">007</span><span class="token constant">AFF</span><span class="token punctuation">;</span>
+		height<span class="token operator">:</span> <span class="token number">40</span>rpx<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>grid <span class="token punctuation">{</span>
+		background<span class="token operator">-</span>color<span class="token operator">:</span> #<span class="token constant">FFFFFF</span><span class="token punctuation">;</span>
+		margin<span class="token operator">-</span>bottom<span class="token operator">:</span> <span class="token number">6</span>px<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>uni<span class="token operator">-</span>grid <span class="token punctuation">.</span>text <span class="token punctuation">{</span>
+		font<span class="token operator">-</span>size<span class="token operator">:</span> <span class="token number">30</span>rpx<span class="token punctuation">;</span>
+		height<span class="token operator">:</span> <span class="token number">25</span>px<span class="token punctuation">;</span>
+		line<span class="token operator">-</span>height<span class="token operator">:</span> <span class="token number">25</span>px<span class="token punctuation">;</span>
+		color<span class="token operator">:</span> #<span class="token number">817f</span><span class="token number">82</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>uni<span class="token operator">-</span>grid <span class="token punctuation">.</span>item <span class="token operator">/</span>deep<span class="token operator">/</span> <span class="token punctuation">.</span>uni<span class="token operator">-</span>grid<span class="token operator">-</span>item__box <span class="token punctuation">{</span>
+		justify<span class="token operator">-</span>content<span class="token operator">:</span> center<span class="token punctuation">;</span>
+		align<span class="token operator">-</span>items<span class="token operator">:</span> center<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+
+	<span class="token comment">/*修改边线粗细示例*/</span>
+	<span class="token comment">/* #ifndef APP-NVUE */</span>
+	<span class="token punctuation">.</span>center<span class="token operator">-</span>list <span class="token operator">/</span>deep<span class="token operator">/</span> <span class="token punctuation">.</span>uni<span class="token operator">-</span>list<span class="token operator">--</span>border<span class="token operator">:</span>after <span class="token punctuation">{</span>
+		<span class="token operator">-</span>webkit<span class="token operator">-</span>transform<span class="token operator">:</span> <span class="token function">scaleY</span><span class="token punctuation">(</span><span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		transform<span class="token operator">:</span> <span class="token function">scaleY</span><span class="token punctuation">(</span><span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		margin<span class="token operator">-</span>left<span class="token operator">:</span> <span class="token number">80</span>rpx<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>center<span class="token operator">-</span>list <span class="token operator">/</span>deep<span class="token operator">/</span> <span class="token punctuation">.</span>uni<span class="token operator">-</span>list<span class="token operator">--</span>border<span class="token operator">-</span>top<span class="token punctuation">,</span>
+	<span class="token punctuation">.</span>center<span class="token operator">-</span>list <span class="token operator">/</span>deep<span class="token operator">/</span> <span class="token punctuation">.</span>uni<span class="token operator">-</span>list<span class="token operator">--</span>border<span class="token operator">-</span>bottom <span class="token punctuation">{</span>
+		display<span class="token operator">:</span> none<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token comment">/* #endif */</span>
+	<span class="token punctuation">.</span>item<span class="token operator">-</span>footer <span class="token punctuation">{</span>
+		flex<span class="token operator">-</span>direction<span class="token operator">:</span> row<span class="token punctuation">;</span>
+		align<span class="token operator">-</span>items<span class="token operator">:</span> center<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>item<span class="token operator">-</span>footer<span class="token operator">-</span>text <span class="token punctuation">{</span>
+		color<span class="token operator">:</span> #<span class="token number">999</span><span class="token punctuation">;</span>
+		font<span class="token operator">-</span>size<span class="token operator">:</span> <span class="token number">24</span>rpx<span class="token punctuation">;</span>
+		padding<span class="token operator">-</span>right<span class="token operator">:</span> <span class="token number">10</span>rpx<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token punctuation">.</span>item<span class="token operator">-</span>footer<span class="token operator">-</span>badge <span class="token punctuation">{</span>
+		width<span class="token operator">:</span> <span class="token number">20</span>rpx<span class="token punctuation">;</span>
+		height<span class="token operator">:</span> <span class="token number">20</span>rpx<span class="token punctuation">;</span>
+		<span class="token comment">/* #ifndef APP-NVUE */</span>
+		border<span class="token operator">-</span>radius<span class="token operator">:</span> <span class="token number">50</span><span class="token operator">%</span><span class="token punctuation">;</span>
+		<span class="token comment">/* #endif */</span>
+		<span class="token comment">/* #ifdef APP-NVUE */</span>
+		border<span class="token operator">-</span>radius<span class="token operator">:</span> <span class="token number">10</span>rpx<span class="token punctuation">;</span>
+		<span class="token comment">/* #endif */</span>
+		background<span class="token operator">-</span>color<span class="token operator">:</span> #<span class="token constant">DD524D</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">&gt;</span>
+
+
+</code></pre></div><div class="language-java extra-class"><pre class="language-java"><code><span class="token generics"><span class="token punctuation">&lt;</span>script<span class="token punctuation">&gt;</span></span>
+ <span class="token keyword">import</span> <span class="token namespace">uQRCode</span> from '<span class="token punctuation">.</span>/uqrcode<span class="token punctuation">.</span>js'
+
+ export <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  props<span class="token operator">:</span> <span class="token punctuation">{</span>
+   cid<span class="token operator">:</span> <span class="token punctuation">{</span>
+    type<span class="token operator">:</span> <span class="token class-name">String</span><span class="token punctuation">,</span>
+    <span class="token keyword">default</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+     <span class="token keyword">return</span> <span class="token class-name">Date</span><span class="token punctuation">.</span><span class="token function">now</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span><span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span>''<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   text<span class="token operator">:</span> <span class="token punctuation">{</span>
+    type<span class="token operator">:</span> <span class="token class-name">String</span><span class="token punctuation">,</span>
+    required<span class="token operator">:</span> <span class="token boolean">true</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   size<span class="token operator">:</span> <span class="token punctuation">{</span>
+    type<span class="token operator">:</span> <span class="token class-name">Number</span><span class="token punctuation">,</span>
+    <span class="token keyword">default</span><span class="token operator">:</span> uni<span class="token punctuation">.</span><span class="token function">upx2px</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">)</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   margin<span class="token operator">:</span> <span class="token punctuation">{</span>
+    type<span class="token operator">:</span> <span class="token class-name">Number</span><span class="token punctuation">,</span>
+    <span class="token keyword">default</span><span class="token operator">:</span> <span class="token number">0</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   backgroundColor<span class="token operator">:</span> <span class="token punctuation">{</span>
+    type<span class="token operator">:</span> <span class="token class-name">String</span><span class="token punctuation">,</span>
+    <span class="token keyword">default</span><span class="token operator">:</span> '#ffffff'
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   foregroundColor<span class="token operator">:</span> <span class="token punctuation">{</span>
+    type<span class="token operator">:</span> <span class="token class-name">String</span><span class="token punctuation">,</span>
+    <span class="token keyword">default</span><span class="token operator">:</span> '#<span class="token number">000000</span>'
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   backgroundImage<span class="token operator">:</span> <span class="token punctuation">{</span>
+    type<span class="token operator">:</span> <span class="token class-name">String</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   logo<span class="token operator">:</span> <span class="token punctuation">{</span>
+    type<span class="token operator">:</span> <span class="token class-name">String</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   makeOnLoad<span class="token operator">:</span> <span class="token punctuation">{</span>
+    type<span class="token operator">:</span> <span class="token class-name">Boolean</span><span class="token punctuation">,</span>
+    <span class="token keyword">default</span><span class="token operator">:</span> <span class="token boolean">false</span>
+   <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token keyword">return</span> <span class="token punctuation">{</span>
+
+   <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>makeOnLoad<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">make</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+   <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+   async <span class="token function">make</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> options <span class="token operator">=</span> <span class="token punctuation">{</span>
+     canvasId<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>cid<span class="token punctuation">,</span>
+     componentInstance<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">,</span>
+     text<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>text<span class="token punctuation">,</span>
+     size<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size<span class="token punctuation">,</span>
+     margin<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>margin<span class="token punctuation">,</span>
+     backgroundColor<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>backgroundImage <span class="token operator">?</span> '<span class="token function">rgba</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span>' <span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>backgroundColor<span class="token punctuation">,</span>
+     foregroundColor<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>foregroundColor
+    <span class="token punctuation">}</span>
+    <span class="token keyword">var</span> filePath <span class="token operator">=</span> await <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">makeSync</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>backgroundImage<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+     filePath <span class="token operator">=</span> await <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">drawBackgroundImageSync</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>logo<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+     filePath <span class="token operator">=</span> await <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">drawLogoSync</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">makeComplete</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token function">makeComplete</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>$<span class="token function">emit</span><span class="token punctuation">(</span>'makeComplete'<span class="token punctuation">,</span> filePath<span class="token punctuation">)</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token function">drawBackgroundImage</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> ctx <span class="token operator">=</span> uni<span class="token punctuation">.</span><span class="token function">createCanvasContext</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>cid<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">)</span>
+
+    ctx<span class="token punctuation">.</span><span class="token function">drawImage</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>backgroundImage<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size<span class="token punctuation">)</span>
+
+    ctx<span class="token punctuation">.</span><span class="token function">drawImage</span><span class="token punctuation">(</span>options<span class="token punctuation">.</span>filePath<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size<span class="token punctuation">)</span>
+
+    ctx<span class="token punctuation">.</span><span class="token function">draw</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+     uni<span class="token punctuation">.</span><span class="token function">canvasToTempFilePath</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      canvasId<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>cid<span class="token punctuation">,</span>
+      success<span class="token operator">:</span> res <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       options<span class="token punctuation">.</span>success <span class="token operator">&amp;&amp;</span> options<span class="token punctuation">.</span><span class="token function">success</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>tempFilePath<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      fail<span class="token operator">:</span> error <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       options<span class="token punctuation">.</span>fail <span class="token operator">&amp;&amp;</span> options<span class="token punctuation">.</span><span class="token function">fail</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+     <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   async <span class="token function">drawBackgroundImageSync</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span>resolve<span class="token punctuation">,</span> reject<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+     <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">drawBackgroundImage</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      filePath<span class="token operator">:</span> filePath<span class="token punctuation">,</span>
+      success<span class="token operator">:</span> res <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       <span class="token function">resolve</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      fail<span class="token operator">:</span> error <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       <span class="token function">reject</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+     <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token function">fillRoundRect</span><span class="token punctuation">(</span>ctx<span class="token punctuation">,</span> r<span class="token punctuation">,</span> x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> w<span class="token punctuation">,</span> h<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    ctx<span class="token punctuation">.</span><span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">translate</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">beginPath</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">arc</span><span class="token punctuation">(</span>w <span class="token operator">-</span> r<span class="token punctuation">,</span> h <span class="token operator">-</span> r<span class="token punctuation">,</span> r<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">lineTo</span><span class="token punctuation">(</span>r<span class="token punctuation">,</span> h<span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">arc</span><span class="token punctuation">(</span>r<span class="token punctuation">,</span> h <span class="token operator">-</span> r<span class="token punctuation">,</span> r<span class="token punctuation">,</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token constant">PI</span><span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">lineTo</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> r<span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">arc</span><span class="token punctuation">(</span>r<span class="token punctuation">,</span> r<span class="token punctuation">,</span> r<span class="token punctuation">,</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token constant">PI</span><span class="token punctuation">,</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">*</span> <span class="token number">3</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">lineTo</span><span class="token punctuation">(</span>w <span class="token operator">-</span> r<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">arc</span><span class="token punctuation">(</span>w <span class="token operator">-</span> r<span class="token punctuation">,</span> r<span class="token punctuation">,</span> r<span class="token punctuation">,</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">*</span> <span class="token number">3</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">lineTo</span><span class="token punctuation">(</span>w<span class="token punctuation">,</span> h <span class="token operator">-</span> r<span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">closePath</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">setFillStyle</span><span class="token punctuation">(</span>'#ffffff'<span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">fill</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    ctx<span class="token punctuation">.</span><span class="token function">restore</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token function">drawLogo</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> ctx <span class="token operator">=</span> uni<span class="token punctuation">.</span><span class="token function">createCanvasContext</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>cid<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">)</span>
+
+    ctx<span class="token punctuation">.</span><span class="token function">drawImage</span><span class="token punctuation">(</span>options<span class="token punctuation">.</span>filePath<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size<span class="token punctuation">)</span>
+
+    <span class="token keyword">var</span> logoSize <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size <span class="token operator">/</span> <span class="token number">4</span>
+    <span class="token keyword">var</span> logoX <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size <span class="token operator">/</span> <span class="token number">2</span> <span class="token operator">-</span> logoSize <span class="token operator">/</span> <span class="token number">2</span>
+    <span class="token keyword">var</span> logoY <span class="token operator">=</span> logoX
+
+    <span class="token keyword">var</span> borderSize <span class="token operator">=</span> logoSize <span class="token operator">+</span> <span class="token number">10</span>
+    <span class="token keyword">var</span> borderX <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>size <span class="token operator">/</span> <span class="token number">2</span> <span class="token operator">-</span> borderSize <span class="token operator">/</span> <span class="token number">2</span>
+    <span class="token keyword">var</span> borderY <span class="token operator">=</span> borderX
+    <span class="token keyword">var</span> borderRadius <span class="token operator">=</span> <span class="token number">5</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">fillRoundRect</span><span class="token punctuation">(</span>ctx<span class="token punctuation">,</span> borderRadius<span class="token punctuation">,</span> borderX<span class="token punctuation">,</span> borderY<span class="token punctuation">,</span> borderSize<span class="token punctuation">,</span> borderSize<span class="token punctuation">)</span>
+
+    ctx<span class="token punctuation">.</span><span class="token function">drawImage</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>logo<span class="token punctuation">,</span> logoX<span class="token punctuation">,</span> logoY<span class="token punctuation">,</span> logoSize<span class="token punctuation">,</span> logoSize<span class="token punctuation">)</span>
+
+    ctx<span class="token punctuation">.</span><span class="token function">draw</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+     uni<span class="token punctuation">.</span><span class="token function">canvasToTempFilePath</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      canvasId<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>cid<span class="token punctuation">,</span>
+      success<span class="token operator">:</span> res <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       options<span class="token punctuation">.</span>success <span class="token operator">&amp;&amp;</span> options<span class="token punctuation">.</span><span class="token function">success</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>tempFilePath<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      fail<span class="token operator">:</span> error <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       options<span class="token punctuation">.</span>fail <span class="token operator">&amp;&amp;</span> options<span class="token punctuation">.</span><span class="token function">fail</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+     <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   async <span class="token function">drawLogoSync</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span>resolve<span class="token punctuation">,</span> reject<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+     <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">drawLogo</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      filePath<span class="token operator">:</span> filePath<span class="token punctuation">,</span>
+      success<span class="token operator">:</span> res <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       <span class="token function">resolve</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      fail<span class="token operator">:</span> error <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       <span class="token function">reject</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+     <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   async <span class="token function">makeSync</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span>resolve<span class="token punctuation">,</span> reject<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+     uQRCode<span class="token punctuation">.</span><span class="token function">make</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      canvasId<span class="token operator">:</span> options<span class="token punctuation">.</span>canvasId<span class="token punctuation">,</span>
+      componentInstance<span class="token operator">:</span> options<span class="token punctuation">.</span>componentInstance<span class="token punctuation">,</span>
+      text<span class="token operator">:</span> options<span class="token punctuation">.</span>text<span class="token punctuation">,</span>
+      size<span class="token operator">:</span> options<span class="token punctuation">.</span>size<span class="token punctuation">,</span>
+      margin<span class="token operator">:</span> options<span class="token punctuation">.</span>margin<span class="token punctuation">,</span>
+      backgroundColor<span class="token operator">:</span> options<span class="token punctuation">.</span>backgroundColor<span class="token punctuation">,</span>
+      foregroundColor<span class="token operator">:</span> options<span class="token punctuation">.</span>foregroundColor<span class="token punctuation">,</span>
+      success<span class="token operator">:</span> res <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       <span class="token function">resolve</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      fail<span class="token operator">:</span> error <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+       <span class="token function">reject</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+     <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+   <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+ <span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+
+</code></pre></div><h2 id="四-代码获取"><a href="#四-代码获取" class="header-anchor">#</a> 四，代码获取：</h2> <p>这个系统小孟也开发了很久，有小伙伴说需要学习，狠狠心，给大家开源了，拿去学习吧，关注下方公众号，输入：<strong>unicloud</strong></p> <p><img src="/assets/1-34/spring%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" alt="spring公众号"></p></div></section> <footer class="page-edit"> </footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/d1/1-33.html" class="prev">
+          一天撸一个财务APP系统【安卓端+前端+后端】️
+        </a></span> <span class="next"><a href="/d1/1-35.html">
+          SpringBoot开发非常美观的java博客系统️
+        </a></span></p></div> <div class="comments-wrapper"></div></main></div> </div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:0;" data-v-b57cc07c data-v-7dd95ae2></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/assets/js/app.b4218105.js" defer></script><script src="/assets/js/3.9993d33b.js" defer></script><script src="/assets/js/1.40a3bba8.js" defer></script><script src="/assets/js/38.8b9673cc.js" defer></script>
+  </body>
+</html>
